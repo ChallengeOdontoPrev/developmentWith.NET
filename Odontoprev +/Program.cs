@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using OdontoPrev.Data;
 using OdontoPrev.Repositories;
 using OdontoPrev.Services;
 
@@ -11,9 +12,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<BlogDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register repositories and services
+// Register repositories
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+// Register services
 builder.Services.AddScoped<IBlogService, BlogService>();
 
 var app = builder.Build();
@@ -22,6 +25,7 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

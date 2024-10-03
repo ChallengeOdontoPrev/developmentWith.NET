@@ -1,0 +1,113 @@
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\appsettings.Development.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\appsettings.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.staticwebassets.runtime.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.exe
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.deps.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.runtimeconfig.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Odontoprev +.pdb
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Humanizer.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.CodeDom.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.csproj.AssemblyReference.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.GeneratedMSBuildEditorConfig.editorconfig
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.AssemblyInfoInputs.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.AssemblyInfo.cs
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.csproj.CoreCompileInputs.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.MvcApplicationPartsAssemblyInfo.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.RazorAssemblyInfo.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.RazorAssemblyInfo.cs
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.sourcelink.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets.build.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets.development.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets\msbuild.Odontoprev +.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets\msbuild.build.Odontoprev +.props
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Odontoprev +.props
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Odontoprev +.props
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\staticwebassets.pack.json
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\scopedcss\bundle\Odontoprev +.styles.css
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\scopedcss\projectbundle\Odontoprev +.bundle.scp.css
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontopr.49134A30.Up2Date
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\refint\Odontoprev +.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.pdb
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.genruntimeconfig.cache
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\ref\Odontoprev +.dll
