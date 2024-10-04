@@ -4,7 +4,9 @@ using OdontoPrev.ViewModels;
 
 namespace OdontoPrev.Controllers
 {
-    public class PostController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class PostController : ControllerBase
     {
         private readonly IBlogService _blogService;
 
@@ -13,82 +15,82 @@ namespace OdontoPrev.Controllers
             _blogService = blogService;
         }
 
-        public async Task<IActionResult> Index()
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<PostViewModel>>> GetPosts()
         {
             var posts = await _blogService.GetAllPostsAsync();
-            return View(posts);
+            return Ok(posts);
         }
 
-        public async Task<IActionResult> Details(int id)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<PostViewModel>> GetPost(int id)
         {
             var post = await _blogService.GetPostByIdAsync(id);
             if (post == null)
             {
                 return NotFound();
             }
-            return View(post);
-        }
-
-        public IActionResult Create()
-        {
-            return View();
+            return Ok(post);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(PostViewModel postViewModel)
+        public async Task<ActionResult<PostViewModel>> CreatePost(PostViewModel postViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await _blogService.CreatePostAsync(postViewModel);
-                return RedirectToAction(nameof(Index));
+                return BadRequest(ModelState);
             }
-            return View(postViewModel);
+
+            var createdPost = await _blogService.CreatePostAsync(postViewModel);
+            return CreatedAtAction(nameof(GetPost), new { id = createdPost.Id }, createdPost);
         }
 
-        public async Task<IActionResult> Edit(int id)
-        {
-            var post = await _blogService.GetPostByIdAsync(id);
-            if (post == null)
-            {
-                return NotFound();
-            }
-            return View(post);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, PostViewModel postViewModel)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePost(int id, PostViewModel postViewModel)
         {
             if (id != postViewModel.Id)
             {
-                return NotFound();
+                return BadRequest();
             }
 
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
             {
                 await _blogService.UpdatePostAsync(postViewModel);
-                return RedirectToAction(nameof(Index));
             }
-            return View(postViewModel);
+            catch
+            {
+                if (!await PostExists(id))
+                {
+                    return NotFound();
+                }
+                throw;
+            }
+
+            return NoContent();
         }
 
-        public async Task<IActionResult> Delete(int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePost(int id)
         {
             var post = await _blogService.GetPostByIdAsync(id);
             if (post == null)
             {
                 return NotFound();
             }
-            return View(post);
+
+            await _blogService.DeletePostAsync(id);
+            return NoContent();
         }
 
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        private async Task<bool> PostExists(int id)
         {
-            await _blogService.DeletePostAsync(id);
-            return RedirectToAction(nameof(Index));
+            var post = await _blogService.GetPostByIdAsync(id);
+            return post != null;
         }
     }
 }

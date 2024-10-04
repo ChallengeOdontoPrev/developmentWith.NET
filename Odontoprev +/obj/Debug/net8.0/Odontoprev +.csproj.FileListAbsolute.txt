@@ -111,3 +111,8 @@ C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\refint\Odontoprev 
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.pdb
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.genruntimeconfig.cache
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\ref\Odontoprev +.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.MvcApplicationPartsAssemblyInfo.cs
