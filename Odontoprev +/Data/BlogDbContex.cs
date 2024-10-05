@@ -22,7 +22,6 @@ namespace OdontoPrev.Data
                 .WithOne(p => p.Author)
                 .HasForeignKey(p => p.AuthorId);
 
-            // You can add more configurations here if needed
         }
     }
 }

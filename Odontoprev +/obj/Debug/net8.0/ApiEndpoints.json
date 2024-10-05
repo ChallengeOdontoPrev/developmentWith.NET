@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "OdontoPrev.Controllers.AuthController",
+    "Method": "GetAllAuthors",
+    "RelativePath": "api/Auth/authors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OdontoPrev.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "OdontoPrev.ViewModels.LoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "GetPosts",
     "RelativePath": "api/Post",

@@ -116,3 +116,12 @@ C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNet
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\obj\Debug\net8.0\Odontoprev +.MvcApplicationPartsAssemblyInfo.cs
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

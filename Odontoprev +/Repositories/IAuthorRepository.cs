@@ -9,5 +9,6 @@ namespace OdontoPrev.Repositories
         Task<Author> AddAsync(Author author);
         Task UpdateAsync(Author author);
         Task DeleteAsync(int id);
+        Task<Author> GetByUsernameAsync(string username);
     }
 }

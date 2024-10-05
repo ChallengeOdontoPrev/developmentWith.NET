@@ -19,6 +19,7 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 
 // Register services
 builder.Services.AddScoped<IBlogService, BlogService>();
+builder.Services.AddScoped<IAuthorService, AuthorService>();
 
 // Configure Swagger
 builder.Services.AddSwaggerGen(c =>
@@ -36,10 +37,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "OdontoPrev API v1");
-        c.RoutePrefix = string.Empty; // Serve o Swagger UI na raiz
+        c.RoutePrefix = string.Empty;
     });
 
-    // Redireciona a raiz para o Swagger UI
     app.Use(async (context, next) =>
     {
         if (context.Request.Path.Value == "/")
@@ -58,18 +58,24 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
+// Initialize the database
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<BlogDbContext>();
-    context.Database.Migrate();
+    try
+    {
+        var context = services.GetRequiredService<BlogDbContext>();
+        DbInitializer.Initialize(context);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Ocorreu um erro ao inicializar o banco de dados.");
+    }
 }
 
 app.Run();
