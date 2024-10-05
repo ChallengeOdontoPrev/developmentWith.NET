@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "poUjUJ4FLrM=",
+  "dgSpecHash": "lkkougIDNA4=",
   "success": true,
-  "projectFilePath": "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\Odontoprev +.csproj",
+  "projectFilePath": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\Odontoprev +.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustavo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",

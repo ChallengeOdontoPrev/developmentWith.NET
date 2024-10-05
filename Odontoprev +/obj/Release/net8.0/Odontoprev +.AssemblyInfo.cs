@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Odontoprev +")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a629af93b7d460e1171415a0463b476f86610859")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f03fc12e823fe530e3478ee108cc062f9c6ad1c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Odontoprev +")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Odontoprev +")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

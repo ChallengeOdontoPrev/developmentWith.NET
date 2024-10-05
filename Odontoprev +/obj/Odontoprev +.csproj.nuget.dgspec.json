@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\Odontoprev +.csproj": {}
+    "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\Odontoprev +.csproj": {}
   },
   "projects": {
-    "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\Odontoprev +.csproj": {
+    "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\Odontoprev +.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\Odontoprev +.csproj",
+        "projectUniqueName": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\Odontoprev +.csproj",
         "projectName": "Odontoprev +",
-        "projectPath": "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\Odontoprev +.csproj",
+        "projectPath": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\Odontoprev +.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\FIAP\\2 º ANO\\Challange .NET\\Odontoprev +\\obj\\",
+        "outputPath": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",

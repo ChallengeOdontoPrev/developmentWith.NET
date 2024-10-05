@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Odontoprev__
 build_property.RootNamespace = Odontoprev__
-build_property.ProjectDir = C:\FIAP\2 º ANO\Challange .NET\Odontoprev +\
+build_property.ProjectDir = C:\FIAP\2 º ANO\Chalange .net\developmentWith.NET\Odontoprev +\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\FIAP\2 º ANO\Challange .NET\Odontoprev +
+build_property.MSBuildProjectDirectory = C:\FIAP\2 º ANO\Chalange .net\developmentWith.NET\Odontoprev +
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/Error.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/Index.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/Privacy.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/_ViewImports.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/_ViewStart.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/FIAP/2 º ANO/Challange .NET/Odontoprev +/Pages/Shared/_Layout.cshtml]
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d15foz3a4p

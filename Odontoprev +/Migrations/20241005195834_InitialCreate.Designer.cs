@@ -12,7 +12,7 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace Odontoprev__.Migrations
 {
     [DbContext(typeof(BlogDbContext))]
-    [Migration("20241003232349_InitialCreate")]
+    [Migration("20241005195834_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
