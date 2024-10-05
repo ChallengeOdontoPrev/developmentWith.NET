@@ -143,3 +143,13 @@ Este projeto abrange o desenvolvimento de uma aplicação web utilizando .NET MV
 - JWT para autenticação
 
 
+# INTEGRANTE
+
+### Gustavo Araújo Maia
+### Kauã Almeida Silveira
+### Rafael Vida Fernandes
+
+### Turmas: 2TDSPS
+
+
+
