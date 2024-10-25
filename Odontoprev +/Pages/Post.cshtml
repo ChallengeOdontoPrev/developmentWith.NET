@@ -1,0 +1,38 @@
+﻿@page "{id:int}"
+@model PostModel
+@{
+   ViewData["Title"] = Model.Post.Title;
+}
+
+<div class="container py-5">
+   <div class="row justify-content-center">
+       <div class="col-lg-8">
+           <article>
+               <header class="mb-4">
+                   <h1 class="fw-bolder mb-1">@Model.Post.Title</h1>
+                   <div class="text-muted fst-italic mb-2">
+                       <i class="bi bi-calendar3"></i>
+                       Publicado em @Model.Post.CreatedAt.ToString("dd/MM/yyyy")
+                   </div>
+               </header>
+               <figure class="mb-4">
+                   <img class="img-fluid rounded w-100 shadow-sm" src="~/images/card_bg.jpg" alt="@Model.Post.Title">
+               </figure>
+               <section class="mb-5">
+                   @foreach (var paragraph in Model.Post.Content.Split("\n\n"))
+                   {
+                       <p class="fs-5 mb-4">@paragraph</p>
+                   }
+               </section>
+           </article>
+
+           <!-- Botão de voltar -->
+           <div class="mt-4">
+               <a href="/" class="btn btn-primary">
+                   <i class="bi bi-arrow-left"></i>
+                   Voltar para as atualizações
+               </a>
+           </div>
+       </div>
+   </div>
+</div>

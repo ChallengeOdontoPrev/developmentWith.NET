@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\banner_page.png",
+      "PackagePath": "staticwebassets\\images\\banner_page.png"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\card_bg.jpg"
+    },
+    {
       "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,20 +1,20 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using OdontoPrev.Services;
+using OdontoPrev.ViewModels;
 
-namespace Odontoprev__.Pages
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly IBlogService _blogService;
+
+    public IndexModel(IBlogService blogService)
     {
-        private readonly ILogger<IndexModel> _logger;
+        _blogService = blogService;
+    }
 
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
+    public IEnumerable<PostViewModel> Posts { get; set; }
 
-        public void OnGet()
-        {
-
-        }
+    public async Task OnGetAsync()
+    {
+        Posts = await _blogService.GetAllPostsAsync();
     }
 }
