@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LIkt9HRkCJn9G6yVXZO3YY0rZenbGRW+hB9+04gz9iU=",
+  "Hash": "5lQns1o1YyZMXR3hUCwSTX3s0ZzXOI87DoVakOv4t7M=",
   "Source": "Odontoprev +",
   "BasePath": "_content/Odontoprev +",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\css\\styles.css",
+      "SourceId": "Odontoprev +",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\",
+      "BasePath": "_content/Odontoprev +",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\favicon.ico",

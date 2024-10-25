@@ -33,7 +33,8 @@ namespace OdontoPrev.Services
             if (author == null)
                 return null;
 
-            if (!VerifyPasswordHash(password, author.PasswordHash))
+            
+            if (password != author.PasswordHash)
                 return null;
 
             return MapToAuthorViewModel(author);
@@ -41,6 +42,8 @@ namespace OdontoPrev.Services
 
         private AuthorViewModel MapToAuthorViewModel(Author author)
         {
+            if (author == null) return null;
+
             return new AuthorViewModel
             {
                 Id = author.Id,
@@ -48,16 +51,6 @@ namespace OdontoPrev.Services
                 Email = author.Email,
                 Username = author.Username
             };
-        }
-
-        private bool VerifyPasswordHash(string password, string storedHash)
-        {
-            using (var sha256 = SHA256.Create())
-            {
-                var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                var hash = BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
-                return hash == storedHash;
-            }
         }
     }
 }

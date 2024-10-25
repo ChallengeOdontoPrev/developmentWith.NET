@@ -46,9 +46,10 @@ namespace OdontoPrev.Repositories
             }
         }
 
-        public Task<Author> GetByUsernameAsync(string username)
+        public async Task<Author> GetByUsernameAsync(string username)
         {
-            throw new NotImplementedException();
+            return await _context.Authors
+                .FirstOrDefaultAsync(a => a.Username == username);
         }
     }
 }

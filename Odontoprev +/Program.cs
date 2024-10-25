@@ -7,6 +7,7 @@ using OdontoPrev.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 
 // Configure DbContext
@@ -29,7 +30,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
@@ -37,17 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "OdontoPrev API v1");
-        c.RoutePrefix = string.Empty;
-    });
-
-    app.Use(async (context, next) =>
-    {
-        if (context.Request.Path.Value == "/")
-        {
-            context.Response.Redirect("/swagger");
-            return;
-        }
-        await next();
+        c.RoutePrefix = "swagger";
     });
 }
 else
@@ -56,12 +47,25 @@ else
     app.UseHsts();
 }
 
+// Adicione este middleware para redirecionar URLs com .html
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path.Value.EndsWith(".html", StringComparison.OrdinalIgnoreCase))
+    {
+        var newPath = context.Request.Path.Value.Replace(".html", "");
+        context.Response.Redirect(newPath);
+        return;
+    }
+    await next();
+});
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
 app.UseAuthorization();
+
+app.MapRazorPages();
 app.MapControllers();
-
-
 
 app.Run();
