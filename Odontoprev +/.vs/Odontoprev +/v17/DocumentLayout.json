@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|c:\\fiap\\2 \u00BA ano\\chalange .net\\developmentwith.net\\odontoprev \u002B\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|c:\\fiap\\2 \u00BA ano\\chalange .net\\developmentwith.net\\odontoprev \u002B\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|c:\\fiap\\2 \u00BA ano\\chalange .net\\developmentwith.net\\odontoprev \u002B\\pages\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|solutionrelative:pages\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|c:\\fiap\\2 \u00BA ano\\chalange .net\\developmentwith.net\\odontoprev \u002B\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD48DFBC-87AB-4B13-A1AB-B9937D33CA2E}|Odontoprev \u002B.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T11:39:09.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAACoBAAAAAAAAAAAUwEMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-28T11:26:22.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Post.cshtml",
+              "DocumentMoniker": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Pages\\Post.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Post.cshtml",
+              "ToolTip": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Pages\\Post.cshtml",
+              "RelativeToolTip": "Pages\\Post.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T11:22:38.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwF0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T23:18:05.964Z",
               "EditorCaption": ""

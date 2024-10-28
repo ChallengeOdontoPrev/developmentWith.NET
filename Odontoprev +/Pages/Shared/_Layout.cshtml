@@ -35,7 +35,9 @@
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container px-5">
-            <a class="navbar-brand" href="/">Odontodente</a>
+            <a class="navbar-brand" href="/">
+                <img src="~/images/logo.png" alt="Odontodente Logo" class="d-inline-block align-text-top">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                     data-bs-target="#navbarSupportedContent" 
                     aria-controls="navbarSupportedContent" 
@@ -47,32 +49,32 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/" ? "active" : "")" 
-                           aria-current="page" href="/">Home</a>
+                           aria-current="page" href="/">
+                           <i class="bi bi-house-fill me-1"></i>
+                           Home
+                        </a>
                     </li>
                     @if (User.Identity.IsAuthenticated)
                     {
                         <li class="nav-item">
                             <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/Author/Dashboard" ? "active" : "")"
                                href="/Author/Dashboard">
-                                <i class="bi bi-speedometer2"></i> Dashboard
+                                <i class="bi bi-speedometer2 me-1"></i>
+                                Dashboard
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-person-circle"></i> @User.Identity.Name
+                                <i class="bi bi-person-circle me-1"></i>
+                                @User.Identity.Name
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item" href="/Author/Profile">
-                                        <i class="bi bi-person"></i> Perfil
-                                    </a>
-                                </li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li>
-                                    <form method="post" asp-page="/Login" asp-page-handler="Logout" class="d-inline">
+                                    <form method="post" asp-page="/Login" asp-page-handler="Logout" class="d-inline w-100">
                                         <button type="submit" class="dropdown-item text-danger">
-                                            <i class="bi bi-box-arrow-right"></i> Sair
+                                            <i class="bi bi-box-arrow-right"></i>
+                                            Sair
                                         </button>
                                     </form>
                                 </li>
@@ -84,7 +86,8 @@
                         <li class="nav-item">
                             <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/Login" ? "active" : "")" 
                                href="/Login">
-                                <i class="bi bi-box-arrow-in-right"></i> Login Autor
+                                <i class="bi bi-box-arrow-in-right me-1"></i>
+                                Login Autor
                             </a>
                         </li>
                     }
@@ -97,11 +100,11 @@
         @RenderBody()
     </main>
 
-    <footer class="bg-dark text-light py-4 mt-5">
+    <footer class="bg-dark text-light py-4">
         <div class="container px-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h5>Odontodente</h5>
+                    <h5 class="mb-3">Odontodente</h5>
                     <p class="mb-0">Sistema de validação inteligente de procedimentos odontológicos</p>
                 </div>
                 <div class="col-md-6 text-md-end">

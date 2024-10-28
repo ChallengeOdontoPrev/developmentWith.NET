@@ -68,7 +68,7 @@ else
     app.UseHsts();
 }
 
-// Adicione este middleware para redirecionar URLs com .html
+
 app.Use(async (context, next) =>
 {
     if (context.Request.Path.Value.EndsWith(".html", StringComparison.OrdinalIgnoreCase))
@@ -84,8 +84,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-// A ordem desses middlewares é importante!
-app.UseAuthentication(); // Adicionar antes do UseAuthorization
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapRazorPages();
