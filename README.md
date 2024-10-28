@@ -12,13 +12,43 @@ O objetivo é manter usuários e profissionais que trabalham com a OdontoPrev in
 
 Este projeto segue os princípios da Clean Architecture para manter o código desacoplado e facilitar a manutenção e escalabilidade. A estrutura do projeto é dividida nas seguintes camadas:
 
-[Clique aqui para acessar o desenho da arquitetura! ](https://whimsical.com/odontoprev-BCdqprBhTvpmQRitEzJCn2)
+[Clique aqui para acessar o desenho da arquitetura!](https://whimsical.com/odontoprev-BCdqprBhTvpmQRitEzJCn2)
+
+### Páginas Implementadas
+
+1. **Página Inicial (Index)**
+   - Hero section com banner destacando o propósito do sistema
+   - Seção de features principais
+   - Grid de cards com as últimas atualizações do blog
+   - Design responsivo e interativo
+
+2. **Página de Post Individual**
+   - Visualização detalhada de cada post
+   - Imagem de capa
+   - Conteúdo formatado em parágrafos
+   - Data de publicação
+   - Navegação para retornar à página inicial
+
+3. **Página de Login**
+   - Formulário de autenticação para autores
+   - Validação de campos
+   - Mensagens de erro/sucesso
+   - Layout responsivo com imagem ilustrativa
+
+4. **Dashboard do Autor**
+   - Interface para gerenciamento de posts
+   - Grid de cards com todos os posts do autor
+   - Modal para criação de novo post
+   - Modal para edição de posts existentes
+   - Confirmação para exclusão de posts
+   - Sistema de notificações toast
+   - Ações rápidas em cada card (editar/excluir)
 
 ### Camadas da Aplicação
 
 1. **Apresentação**
    - Controllers: AuthController, PostController
-   - Views (não implementadas neste projeto MVC API)
+   - Views/Pages: Index, Post, Login, Author/Dashboard
 
 2. **Aplicação**
    - Services: AuthorService, BlogService
@@ -91,65 +121,79 @@ Este projeto abrange o desenvolvimento de uma aplicação web utilizando .NET MV
 ## Detalhes das Classes Principais
 
 ### Author
-- Propriedades:
-  - ID
-  - Name
-  - Email
-  - Senha
-  
+Propriedades:
+- Id (int): Identificador único do autor
+- Name (string): Nome completo do autor
+- Email (string): Email do autor
+- Username (string): Nome de usuário para login
+- PasswordHash (string): Hash da senha do autor
+- Posts (ICollection<Post>): Coleção de posts do autor
 
 ### Post
-- Propriedades:
-  - ID
-  - Título
-  - Conteúdo
-  - Data
-  - Hora
+Propriedades:
+- Id (int): Identificador único do post
+- Title (string): Título do post
+- Content (string): Conteúdo do post
+- CreatedAt (DateTime): Data e hora de criação
+- AuthorId (int): ID do autor do post
+- Author (Author): Referência ao autor do post
 
-### AuthorController
-- Métodos:
-  - Put: Login
-  - Get: ID
+### Controllers
 
-### PostController
-- Métodos:
-  - Get: Feed
-  - Post: Criar Post
-  - Get: Busca Post
-  - PUT: Editar
-  - Delete: Apagar
+#### AuthController
+Endpoints:
+- POST /api/auth/login: Autenticação de usuários
+- GET /api/auth/authors: Listagem de autores (protegido)
+
+#### PostController
+Endpoints:
+- GET /api/post: Lista todos os posts
+- GET /api/post/{id}: Obtém um post específico
+- POST /api/post: Cria novo post (protegido)
+- PUT /api/post/{id}: Atualiza um post (protegido)
+- DELETE /api/post/{id}: Remove um post (protegido)
 
 ## Fluxo de Funcionamento
 
-1. **Usuário**
-   - Acessa a aplicação
-   - Visualiza a tela inicial
-   - Acessa os blogs
+1. **Usuário Não Autenticado**
+   - Acessa a página inicial
+   - Visualiza lista de posts
+   - Acessa posts individuais
+   - Pode fazer login como autor
 
-2. **Autor**
-   - Acessa a aplicação
-   - Visualiza o feed
-   - Pode acessar blogs ou a página de postagens
-   - Se não estiver logado, é redirecionado para a página de login
-   - Após o login bem-sucedido, pode:
-     - Adicionar nova postagem (se for o autor)
-     - Editar ou apagar postagens existentes (se for o autor)
+2. **Autor Autenticado**
+   - Acessa o dashboard
+   - Gerencia seus posts (CRUD)
+   - Visualiza estatísticas
+   - Pode fazer logout
 
 ## Tecnologias Utilizadas
-- .NET 8.0 ou superior
+
+### Backend
+- .NET 8.0
 - ASP.NET Core MVC
 - Entity Framework Core
-- Banco de dados Oracle
-- JWT para autenticação
+- Oracle Database
+- Cookie Authentication
 
+### Frontend
+- Bootstrap 5
+- Font Awesome
+- Bootstrap Icons
+- jQuery
+- Marked.js
+- CSS customizado
+- JavaScript moderno
 
-# INTEGRANTE
+### Ferramentas de Desenvolvimento
+- Visual Studio 2022
+- Git para controle de versão
+- Oracle SQL Developer
+
+## INTEGRANTES
 
 ### Gustavo Araújo Maia
 ### Kauã Almeida Silveira
 ### Rafael Vida Fernandes
 
 ### Turmas: 2TDSPS
-
-
-
