@@ -1,0 +1,30 @@
+﻿/* wwwroot/css/login.css */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+    .form-outline input:focus + label,
+    .form-outline input:not(:placeholder-shown) + label {
+        transform: translateY(-1.5rem) scale(0.85);
+        background: white;
+        padding: 0 0.5rem;
+    }
+
+    .form-outline label {
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transform: translateY(-50%);
+        transition: all 0.2s ease-out;
+        pointer-events: none;
+        color: #6c757d;
+    }

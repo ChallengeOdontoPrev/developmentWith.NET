@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\FIAP\2 º ANO\Chalange .net\developmentWith.NET\Odontoprev +
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Author/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/FIAP/2 º ANO/Chalange .net/developmentWith.NET/Odontoprev +/Pages/Post.cshtml]

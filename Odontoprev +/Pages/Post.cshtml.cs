@@ -12,7 +12,8 @@ public class PostModel : PageModel
         _blogService = blogService;
     }
 
-    public PostViewModel Post { get; set; }
+    public PostViewModel Post { get; set;}
+
 
     public async Task<IActionResult> OnGetAsync(int id)
     {

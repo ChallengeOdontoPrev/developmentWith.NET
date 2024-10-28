@@ -1,33 +1,95 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>@ViewData["Title"] - Odontoprev__</title>
+    <meta name="description" content="Blog Odontodente - Sistema de validação de procedimentos odontológicos" />
+    <meta name="author" content="Odontoprev" />
+    <title>@ViewData["Title"] - Odontodente</title>
+    
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="~/assets/favicon.ico" />
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
     <!-- Core theme CSS -->
     <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/author-dashboard.css" asp-append-version="true" />
+
+    <!-- Renderiza estilos adicionais específicos da página -->
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
+    <!-- Toast Container para notificações -->
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1050"></div>
+
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container px-5">
-            <a class="navbar-brand" href="#!">Odontodente</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Login Autor</a></li>
-                    </ul>
-                </div>
+            <a class="navbar-brand" href="/">Odontodente</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/" ? "active" : "")" 
+                           aria-current="page" href="/">Home</a>
+                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/Author/Dashboard" ? "active" : "")"
+                               href="/Author/Dashboard">
+                                <i class="bi bi-speedometer2"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle"></i> @User.Identity.Name
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="/Author/Profile">
+                                        <i class="bi bi-person"></i> Perfil
+                                    </a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <form method="post" asp-page="/Login" asp-page-handler="Logout" class="d-inline">
+                                        <button type="submit" class="dropdown-item text-danger">
+                                            <i class="bi bi-box-arrow-right"></i> Sair
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/Login" ? "active" : "")" 
+                               href="/Login">
+                                <i class="bi bi-box-arrow-in-right"></i> Login Autor
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -35,12 +97,48 @@
         @RenderBody()
     </main>
 
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Odontodente</h5>
+                    <p class="mb-0">Sistema de validação inteligente de procedimentos odontológicos</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; @DateTime.Now.Year - Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    
+    <!-- Core JavaScript -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    
+    <!-- Scripts customizados -->
+    <script src="~/js/site.js"></script>
+    <script src="~/js/author-dashboard.js"></script>
 
+    <!-- Scripts específicos da página -->
     @await RenderSectionAsync("Scripts", required: false)
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                showToast('@TempData["SuccessMessage"]', 'success');
+            });
+        </script>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                showToast('@TempData["ErrorMessage"]', 'danger');
+            });
+        </script>
+    }
 </body>
 </html>

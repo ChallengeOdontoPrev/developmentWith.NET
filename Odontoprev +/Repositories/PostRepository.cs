@@ -24,6 +24,7 @@ namespace OdontoPrev.Repositories
         {
             return await _context.Posts
                 .Include(p => p.Author)
+                .OrderByDescending(p => p.CreatedAt)
                 .ToListAsync();
         }
 
@@ -32,30 +33,87 @@ namespace OdontoPrev.Repositories
             return await _context.Posts
                 .Where(p => p.AuthorId == authorId)
                 .Include(p => p.Author)
+                .OrderByDescending(p => p.CreatedAt)
                 .ToListAsync();
         }
 
         public async Task<Post> AddAsync(Post post)
         {
-            _context.Posts.Add(post);
-            await _context.SaveChangesAsync();
-            return post;
+            try
+            {
+                _context.Posts.Add(post);
+                await _context.SaveChangesAsync();
+
+                // Recarrega o post com as informações do autor
+                await _context.Entry(post)
+                    .Reference(p => p.Author)
+                    .LoadAsync();
+
+                return post;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao criar o post.", ex);
+            }
         }
 
         public async Task UpdateAsync(Post post)
         {
-            _context.Entry(post).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            try
+            {
+                var existingPost = await _context.Posts
+                    .Include(p => p.Author)
+                    .FirstOrDefaultAsync(p => p.Id == post.Id);
+
+                if (existingPost == null)
+                {
+                    throw new InvalidOperationException("Post não encontrado.");
+                }
+
+                // Atualiza apenas os campos permitidos
+                existingPost.Title = post.Title;
+                existingPost.Content = post.Content;
+                // Não atualiza CreatedAt, AuthorId e Author
+
+                _context.Entry(existingPost).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!await PostExists(post.Id))
+                {
+                    throw new InvalidOperationException("Post não encontrado.");
+                }
+                throw;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao atualizar o post.", ex);
+            }
         }
 
         public async Task DeleteAsync(int id)
         {
-            var post = await _context.Posts.FindAsync(id);
-            if (post != null)
+            try
             {
+                var post = await _context.Posts.FindAsync(id);
+                if (post == null)
+                {
+                    throw new InvalidOperationException("Post não encontrado.");
+                }
+
                 _context.Posts.Remove(post);
                 await _context.SaveChangesAsync();
             }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao excluir o post.", ex);
+            }
+        }
+
+        private async Task<bool> PostExists(int id)
+        {
+            return await _context.Posts.AnyAsync(p => p.Id == id);
         }
     }
 }

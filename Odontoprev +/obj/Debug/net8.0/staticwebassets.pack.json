@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Odontoprev +.bundle.scp.css"
     },
     {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\css\\author-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\author-dashboard.css"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -23,6 +31,30 @@
     {
       "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg.jpg",
       "PackagePath": "staticwebassets\\images\\card_bg.jpg"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\card_bg2.jpg"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\card_bg3.jpg"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg4.jpg",
+      "PackagePath": "staticwebassets\\images\\card_bg4.jpg"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\card_bg5.jpg",
+      "PackagePath": "staticwebassets\\images\\card_bg5.jpg"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\images\\loginBanner.png",
+      "PackagePath": "staticwebassets\\images\\loginBanner.png"
+    },
+    {
+      "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\js\\author-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\author-dashboard.js"
     },
     {
       "Id": "C:\\FIAP\\2 º ANO\\Chalange .net\\developmentWith.NET\\Odontoprev +\\wwwroot\\js\\site.js",

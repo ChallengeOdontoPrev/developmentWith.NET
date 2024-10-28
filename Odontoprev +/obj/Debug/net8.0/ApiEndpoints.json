@@ -2,7 +2,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.AuthController",
     "Method": "GetAllAuthors",
-    "RelativePath": "api/Auth/authors",
+    "RelativePath": "api/auth/authors",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +12,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth/login",
+    "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "GetPosts",
-    "RelativePath": "api/Post",
+    "RelativePath": "api/post",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "CreatePost",
-    "RelativePath": "api/Post",
+    "RelativePath": "api/post",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "GetPost",
-    "RelativePath": "api/Post/{id}",
+    "RelativePath": "api/post/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -100,7 +100,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "UpdatePost",
-    "RelativePath": "api/Post/{id}",
+    "RelativePath": "api/post/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -121,7 +121,7 @@
   {
     "ContainingType": "OdontoPrev.Controllers.PostController",
     "Method": "DeletePost",
-    "RelativePath": "api/Post/{id}",
+    "RelativePath": "api/post/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
