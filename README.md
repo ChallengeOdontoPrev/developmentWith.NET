@@ -190,6 +190,23 @@ Endpoints:
 - Git para controle de versão
 - Oracle SQL Developer
 
+#Dados Autores
+
+1
+user: mariasantos
+senha: a1d7584daaca4738d499ad7082886b01117275d8
+
+2
+user: anarodrigues
+senha: c3437dbc7c1255d3a21d444a8e90f91052f7016a
+
+3
+user: pedrooliveira
+senha: b1b3773a05c0ed0176787a4f1574ff0075f7521e
+
+
+
+
 ## INTEGRANTES
 
 ### Gustavo Araújo Maia

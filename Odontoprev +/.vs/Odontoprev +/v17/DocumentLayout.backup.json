@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\FIAP\\2 \u00BA ANO\\Chalange .net\\developmentWith.NET\\Odontoprev \u002B\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAmwJIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-28T11:39:09.515Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAACoBAAAAAAAAAAAUwEMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-28T11:26:22.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T11:26:22.93Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Pages\\Post.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T11:22:38.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T11:22:38.148Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:18:05.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T23:18:05.964Z"
             }
           ]
         }
